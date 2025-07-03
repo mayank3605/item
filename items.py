@@ -47,6 +47,7 @@ def get_item_by_category(item_category :str):
 def get_price(item_price :int):
     for index in itms:
         if index.price == item_price:
+            print("hello")
             return itms
 
 @app.get("/itms")
