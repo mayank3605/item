@@ -75,4 +75,5 @@ def delete_item(item_category : str):
     for index, item in enumerate(itms):
         if item.category == item_category:
             itms.pop(index)
-            return {"message" : "item deleted!"}
+            return {"message" : "item deleted!"} 
+        
